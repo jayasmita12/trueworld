@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" class="bg-primary">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.ico" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- <script src="https://www.google.com/recaptcha/api.js"></script> -->
+    <script src="https://www.google.com/recaptcha/api.js?render=6Lee2iskAAAAABld9G9oz9oHSGjinZnLplCkci0X"></script>
+
+    <!-- <link rel="manifest" crossorigin="use-credentials" href="manifest.json" /> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#ffff" />
+    <meta name="theme-color" content="#F5F5F5" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#2F2F2F" media="(prefers-color-scheme: dark)">
+
+    <!-- <meta name="msapplication-square70x70logo" content="/generated/mstile-icon-128.png">
+	<meta name="msapplication-square150x150logo" content="/generated/mstile-icon-270.png">
+	<meta name="msapplication-square310x310logo" content="/generated/mstile-icon-558.png">
+	<meta name="msapplication-wide310x150logo" content="/generated/mstile-icon-558-270.png"> -->
+
+    <!-- <link rel="apple-touch-icon" href="/generated/apple-icon-180.png"> -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <!-- <link rel="shortcut icon" type="image/svg" href="/generated/apple-icon-180.png"> -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="apple-mobile-web-app-title" content="TRUEWORLD" />
+    <meta name="application-name" content="TRUEWORLD" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- PWA -->
+    <!-- <link rel="manifest" crossorigin="use-credentials" href="/manifest.json"> -->
+    <!-- <meta name="msapplication-config" content="/browserconfig.xml" /> -->
+    <meta name="msapplication-TileColor" content="#ffff" />
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="TRUEWORLD" />
+    <meta name="description" content="Blockchain: Realtime monitoring" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://trueworld.com" />
+    <meta property="og:title" content="TRUEWORLD" />
+    <meta property="og:description" content="Blockchain: Realtime monitoring" />
+    <meta property="og:image" content="%sveltekit.assets%/screenshot.jpg" />
+    <meta property="og:site_name" content="TRUEWORLD" />
+    <meta property="og:keywords" content="Your Gateway to the Metaverse" />
+
+    <!-- Site Verification -->
+    <!-- <meta property="fb:admins" content="1216345021" />
+	<meta name="google-site-verification" content="nubQ83kz2YYRrleJaYf_CYbvDZ6lXVl-NL_MWX1Uj9Y" />
+	<meta name="msvalidate.01" content="330DC90484A4B7B61B36AD65E89B47AE" /> -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://trueworld.com" />
+    <meta property="twitter:title" content="TRUEWORLD" />
+    <meta
+      property="twitter:description"
+      content="Your Gateway to the Metaverse" />
+    <meta
+      property="twitter:image"
+      content="https://trueworld.com/screenshot.jpg" />
+    <meta property="twitter:site" content="@TRUEWORLD" />
+    <meta property="twitter:site:id" content="@TRUEWORLD" />
+    <meta property="twitter:creator" content="@TRUEWORLD" />
+    <meta property="twitter:creator:id" content="@TRUEWORLD" />
+
+    %sveltekit.head%
+  </head>
+  <body class="bg-primary" data-sveltekit-preload-data="hover">
+    <div style="display: contents">%sveltekit.body%</div>
+  </body>
+  <script>
+    function onSubmit(token) {
+      document.getElementById("contact-form").submit();
+    }
+  </script>
+</html>

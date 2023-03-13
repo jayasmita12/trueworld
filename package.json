@@ -1,0 +1,38 @@
+{
+  "name": "trueworld",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.11.6",
+    "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-netlify": "^2.0.6",
+    "@sveltejs/kit": "1.5.0",
+    "autoprefixer": "^10.4.13",
+    "classnames": "^2.3.2",
+    "flowbite": "^1.6.3",
+    "flowbite-svelte": "^0.29.12",
+    "postcss": "^8.4.19",
+    "svelte": "^3.54.0",
+    "svelte-check": "^2.10.0",
+    "svelte-preprocess": "^4.10.7",
+    "svelte-recaptcha-v2": "^0.0.2",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3",
+    "vite": "^4.0.0"
+  },
+  "type": "module",
+  "dependencies": {
+    "@k4ung/svelte-otp": "^0.0.9",
+    "@splidejs/svelte-splide": "^0.2.9",
+    "daisyui": "^2.42.1",
+    "yup": "^0.32.11",
+    "yup-phone": "^1.3.2"
+  }
+}
